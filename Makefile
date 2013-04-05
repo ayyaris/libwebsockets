@@ -2,10 +2,11 @@
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
+
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libwebsockets
-PKG_VERSION:=master
+PKG_VERSION:=5b479ac2f1cb7d8a9ded478b99c8257852317ab2
 PKG_RELEASE=$(PKG_SOURCE_VERSION)
 
 PKG_SOURCE_PROTO:=git
